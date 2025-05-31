@@ -30,9 +30,9 @@
 
 ## 🖼️ Screenshot Aplikasi
 
-| Daftar Mahasiswa | Tambah Data | Halaman Favorite | Notifikasi |
+| Daftar Mahasiswa | Tambah Data | Halaman Favorite | Sensor Cahaya |
 |------------------|-------------|------------------|------------|
-| ![daftar](screenshots/Screenshot%202025-05-31%20200241.png) | ![tambah](screenshots/Screenshot%202025-05-31%20200217.png) | ![fav](screenshots/Screenshot%202025-05-31%20200254.png) | ![notif](screenshots/notification.png) |
+| ![daftar](screenshots/Screenshot%202025-05-31%20200241.png) | ![tambah](screenshots/Screenshot%202025-05-31%20200217.png) | ![fav](screenshots/Screenshot%202025-05-31%20200254.png) | ![sensor](screenshots/Screenshot%202025-05-31%20200304.png) |
 
 ---
 
