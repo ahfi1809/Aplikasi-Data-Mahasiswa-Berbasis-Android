@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "718852362794",
+    "project_id": "tugaspraktikum-4d6f6",
+    "storage_bucket": "tugaspraktikum-4d6f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718852362794:android:199ff8554bd7c4f3f42953",
+        "android_client_info": {
+          "package_name": "com.example.latihan_database_sqlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718852362794-v68ce6idt3phddra89rkntli4dumrrfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.latihan_database_sqlite",
+            "certificate_hash": "3e73d100e4e882ab1e84e5d3a6bec4a84fd7aa2b"
+          }
+        },
+        {
+          "client_id": "718852362794-pbgga083177h06m8599l6p58o0ldfhfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZCMNTVmB5--ujLOtkR5tfNsGuxp-DTxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718852362794-pbgga083177h06m8599l6p58o0ldfhfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
