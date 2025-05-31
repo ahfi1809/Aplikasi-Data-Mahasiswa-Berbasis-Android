@@ -32,7 +32,7 @@
 
 | Daftar Mahasiswa | Tambah Data | Halaman Favorite | Notifikasi |
 |------------------|-------------|------------------|------------|
-| ![daftar](screenshots/mahasiswa_list.png) | ![tambah](screenshots/Screenshot 2025-05-31 200217.png) | ![fav](screenshots/favorite.png) | ![notif](screenshots/notification.png) |
+| ![daftar](screenshots/mahasiswa_list.png) | ![tambah](screenshots/Screenshot%2025-05-31 200217.png) | ![fav](screenshots/favorite.png) | ![notif](screenshots/notification.png) |
 
 ---
 
