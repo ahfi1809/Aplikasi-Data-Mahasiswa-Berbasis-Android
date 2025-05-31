@@ -1,6 +1,6 @@
 # 🎓 Aplikasi Manajemen Mahasiswa - ProjekUTS
 
-![Banner](screenshots/banner.png)
+
 
 **ProjekUTS** adalah aplikasi Android berbasis Java yang dirancang untuk memudahkan pengguna dalam mengelola data mahasiswa. Aplikasi ini memiliki fitur penyimpanan data mahasiswa, penandaan sebagai favorit, pengingat melalui notifikasi, dan dukungan sensor cahaya untuk pengalaman pengguna yang dinamis.
 
