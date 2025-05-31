@@ -1,56 +1,53 @@
-# 📱 ProjekUTS - Aplikasi Manajemen Aktivitas Harian
+# 🎓 Aplikasi Manajemen Mahasiswa - ProjekUTS
 
-![ProjekUTS Banner](screenshots/banner.png)
+![Banner](screenshots/banner.png)
 
-**ProjekUTS** adalah aplikasi Android yang dirancang untuk membantu pengguna mengelola aktivitas harian mereka dengan mudah. Aplikasi ini dilengkapi dengan fitur dashboard interaktif, pengingat (reminder), dan manajemen aktivitas berbasis database lokal menggunakan `Room`. Dikembangkan menggunakan Java dan Android Studio sebagai bagian dari tugas UTS.
+**ProjekUTS** adalah aplikasi Android berbasis Java yang dirancang untuk memudahkan pengguna dalam mengelola data mahasiswa. Aplikasi ini memiliki fitur penyimpanan data mahasiswa, penandaan sebagai favorit, pengingat melalui notifikasi, dan dukungan sensor cahaya untuk pengalaman pengguna yang dinamis.
 
 ---
 
-## ✨ Fitur Unggulan
+## 🌟 Fitur-Fitur Utama
 
-### 🗓️ Dashboard Harian
-- Tampilkan daftar aktivitas setiap hari dalam tampilan **RecyclerView**.
-- Mendukung tampilan dinamis sesuai tanggal.
+### 👨‍🎓 Manajemen Data Mahasiswa
+- Tambah, edit, dan hapus data mahasiswa.
+- Setiap mahasiswa memiliki nama, NIM, jurusan, dan keterangan lainnya.
+- Data disimpan secara lokal menggunakan **Room Database**.
 
-### ➕ Manajemen Aktivitas
-- Tambah, edit, dan hapus aktivitas.
-- Form input yang simpel dan mudah digunakan.
-- Setiap aktivitas memiliki nama, deskripsi, dan tanggal.
+### ❤️ Halaman Favorite
+- Pengguna bisa menandai mahasiswa sebagai **favorite**.
+- Halaman khusus untuk menampilkan hanya mahasiswa favorit.
+- Data tersimpan meski aplikasi ditutup.
 
-### ⏰ Pengingat Aktivitas
-- Reminder menggunakan **AlarmManager** dan **Notification**.
-- Notifikasi akan muncul sesuai waktu aktivitas.
+### 🔔 Notifikasi Jumlah Favorite
+- Saat jumlah mahasiswa favorit bertambah, akan muncul **notifikasi otomatis**.
+- Notifikasi memberi tahu total mahasiswa favorit saat ini.
 
-### 💾 Penyimpanan Data
-- Menggunakan **Room Database** untuk menyimpan aktivitas.
-- Simpan preferensi pengguna menggunakan **SharedPreferences**.
-
-### 🧭 Navigasi Antar Halaman
-- Navigasi menggunakan **Intent** antar aktivitas.
-- Navigasi antar fragment (jika ada tab seperti Dashboard dan Favorit).
+### 💡 Sensor Cahaya (Light Sensor)
+- Aplikasi merespons **intensitas cahaya** dari lingkungan.
+- Contoh: mode gelap otomatis atau perubahan warna latar berdasarkan sensor cahaya.
 
 ---
 
 ## 🖼️ Screenshot Aplikasi
 
-| Dashboard | Tambah Aktivitas | Notifikasi |
-|----------|------------------|------------|
-| ![ss1](screenshots/dashboard.png) | ![ss2](screenshots/add_activity.png) | ![ss3](screenshots/notification.png) |
+| Daftar Mahasiswa | Tambah Data | Halaman Favorite | Notifikasi |
+|------------------|-------------|------------------|------------|
+| ![daftar](screenshots/mahasiswa_list.png) | ![tambah](screenshots/add_mahasiswa.png) | ![fav](screenshots/favorite.png) | ![notif](screenshots/notification.png) |
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🧠 Teknologi yang Digunakan
 
-- **Java**
-- **Android Studio**
+- **Java + Android Studio**
 - **Room Database**
 - **RecyclerView**
-- **Sensor Light & Notification**
+- **AlarmManager + Notification**
 - **SharedPreferences**
+- **SensorManager** (Light Sensor)
 
 ---
 
-## 🚀 Cara Menjalankan Proyek
+## 🛠️ Cara Menjalankan Proyek
 
 1. Clone repositori ini:
    ```bash
